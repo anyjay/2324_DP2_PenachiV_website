@@ -1,0 +1,78 @@
+/* This is how everything is formatted. Most things were measured in px, em, or %.My three mains colors were #fff, #d40000, and #e04c4c.*/
+img{
+    height:150px;
+}
+h1,footer{
+    text-align: center;
+}
+body{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-size: 40%;
+}
+main,footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: .25em 1.5em .5em
+}
+.subheading {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+    font-style: italic;
+}
+.newsupdates{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 1.4em;
+    color: #d40000;
+}
+.wrap{
+    float:right
+    margin=10px;
+}
+main {
+    width:90%; 
+    margin: 0 auto;
+}
+nav {
+    background-color: #d40000;
+}
+nav a { 
+    line-height: 3em;
+    color: #fff;
+    padding: 1.5em; 
+    text-decoration: none;
+    text-transform: lowercase;
+}
+nav a:hover {
+   color:  #e04c4c
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav li{
+    list-style-type: none;
+}
+main, footer{
+    width: 75%;
+    margin: 0 auto;
+}
+.no-underline{
+    text-decoration: none;
+    color: black;
+}
+.responses {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #e04c4c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

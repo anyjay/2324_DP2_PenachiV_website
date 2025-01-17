@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula Diaries - Home </title>
+    <link rel="stylesheet"href="CSS/FormulaDiaries.css">
+</head>
+<body>
+    <header>
+        <h1>Formula Diaries</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="Formula1.html">Formula 1</a></li>
+            <li><a href="NewsUpdates.html">News Updates</a></li>
+        </ul>
+    </nav>
+    <main>
+    <!-- This is my home page, it will include a brief explanation about formula 1. It will also include a brief little section on what the website is for, and a section for fake blog answers. The home page will also include images taken by "fans". -->
+    <h2><a href="https://www.formula1.com/" target="_blank" class="no-underline">Formula 1</a></h2>
+        <p>Formula 1 is the pinnacle of motorsport, where cutting-edge technology meets high-speed excitement. With races held on some of the world’s most iconic circuits, F1 brings together the best drivers and teams in a battle for glory, pushing the limits of what’s possible in racing.</p>
+    <h2>Join the Community</h2>
+        <p>At Formula Diaries, we offer a vibrant platform for fans to connect, share, and stay updated on all things Formula 1. Join our community to read and write fan blogs, and stay informed with the latest news. Dive deep into driver facts and enjoy a hub where your passion for formula racing can thrive.</p>
+    <div class="responses">
+        <h2>Question of the Month: Why do you love formula 1?</h2>
+        <p>“The emotions behind every race and driver, that's one thing to love, but mostly the passion of every driver in every race.”</p>
+        <p>“It‘s all about lovely people, fans, engineers, drivers and more who share the same passion.”</p>
+        <p>“It's full of passion from all sides - drivers, teams, fans - and while there's rivalry there's also respect. You learn to expect the unexpected on a race weekend, which makes for intrigue and excitement. Plus the drivers I've met have been lovely and had time for their fans.”</p>
+        <p>​“The speed and beauty of the cars, the bravery of the drivers, the history and the heroes but most of all the work done by the whole team”</p>
+        <h2>Submit Your Response</h2>
+        <form action="/submit" method="POST">
+            <label for="name">name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email/user">email/user</label>
+            <input type="email" id="email" name="email" required>
+            <label for="response">response</label>
+            <textarea id="response" id="response" name="response" required></textarea>
+            <button type="submit">submit</button>
+        <!-- This is a component I originally wanted to have, my dad showed me how to make it show on my actual website so I can sort of keep my idea of it. There is no way to track the responses or display them like I originally wanted to. -->
+    </form>
+    </div>
+    <h2>Our Favorite Fan Taken Pictures:</h2>
+    <img src="images/emilia_romagna_podium.avif" alt="emilia romagna podium">
+    <img src="images/f1_monza_planes.jpeg" alt="monza planes">
+    <img src="images/lando_first_win.jpg" alt="lando first win">
+    <img src="images/racing_sparks.avif" alt="racing sparks taken from grandstand">
+    </main>
+    <footer>
+        <hr>
+        <p>Formula Diaries | Where Passion Meets The Track</p>
+        <hr>
+        <p>Share</p>
+        <p>Stay Updated</p>
+        <p><a href="mailto:valpen26@bergen.org" target="_blank" class="no-underline">Contact Us</a></p>
+        <hr>
+        <p>&copy;2024 by Formula Diaries</p> 
+    </footer>
+</body>
+</html>
